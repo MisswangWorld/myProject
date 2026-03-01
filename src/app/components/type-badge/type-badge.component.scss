@@ -1,0 +1,16 @@
+
+.badge {
+  display: inline-block;
+  padding: 1px 4px;
+  border-radius: 100px;
+  border: 1.5px solid currentColor;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  line-height: 1.6;
+  white-space: nowrap;
+
+  &--stock { color: var(--app-badge-stock); }
+  &--etf   { color: var(--app-badge-etf); }
+  &--otc   { color: var(--app-badge-otc); }
+}
