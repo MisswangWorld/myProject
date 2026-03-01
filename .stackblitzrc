@@ -1,0 +1,3 @@
+{
+  "startCommand": "node -e \"var fs=require('fs');fs.mkdirSync('.git',{recursive:true});fs.writeFileSync('.git/shallow','')\" && npm install && npm start"
+}
